@@ -1,0 +1,22 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to YOLOv5:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: ./dataset # dataset root dir
+train_rgb: ljc/images/rgb/train/
+val_rgb: ljc/images/rgb/val/
+train_ir: ljc/images/ir/train/
+val_ir: ljc/images/ir/val/
+test_rgb: ljc/images/rgb/test/
+test_ir: ljc/images/ir/test/
+# number of classes
+nc: 9
+# class names
+names: [
+'General-Cargo-Ship' , 'Container-Ship' , 'Empty-Cargo-Ship' , 'Bulk-Carrier' , 'Oil-Tanker' , 'Chemical-Tanker'  , 'Engineering-Ship' , 'Fishing-Vessel' , 'Tug'
+]

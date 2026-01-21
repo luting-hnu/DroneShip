@@ -1,0 +1,14 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: ./dataset # dataset root dir
+train_rgb: DroneVehicle/images/test/rgb1/
+val_rgb: DroneVehicle/images/val/rgb1/
+train_ir: DroneVehicle/images/test/ir1/
+val_ir: DroneVehicle/images/val/ir1/
+test_rgb: DroneVehicle/images/test/rgb1/
+test_ir: DroneVehicle/images/test/ir1/
+
+# number of classes
+nc: 5
+# class names
+names: [ 'car','truck','bus','van','feright_car']
+
