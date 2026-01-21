@@ -2,9 +2,6 @@
 The repository contains the implementations for "**Illumination-aware Multimodal Hierarchical Fusion Network for RGB-Infrared Object Detection**". You can find [the PDF of this paper](https://ieeexplore.ieee.org/document/11271561).
 If you have any questions, you can send me an email. My mail address is ljc12138@hnu.edu.cn.
 ****
-# Datasets
-
-****
 # Train IMHFNet
 ``` 
 python train.py
